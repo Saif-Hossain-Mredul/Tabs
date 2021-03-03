@@ -23,17 +23,24 @@ body .about {
 
 body .about .btn-container {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: #DAE2EC;
-  padding: 1.5rem 0;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 body .about .btn-container .tab-btn {
+  height: 4.5rem;
+  background-color: #DAE2EC;
   border: none;
-  background: transparent;
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+}
+
+body .about .btn-container .tab-btn:hover {
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; 
+    background-color: #F1F5F8;
+}
+
+body {
+    display: grid;
+    place-items: center;
+
+    .about {
+        width: 560px; 
+        margin-top: 4rem;
+
+        .btn-container {
+            width: 100%; 
+            display: flex;
+            justify-content: space-around; 
+            background-color: #DAE2EC; 
+            padding: 1.5rem 0;
+
+            .tab-btn {
+                border: none;
+                background: transparent;
+            }
+        }
+    }
+}

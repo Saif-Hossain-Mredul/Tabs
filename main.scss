@@ -36,12 +36,20 @@ body {
 				cursor: pointer;
 
 				&:hover {
-					background-color: white;
-				}
+					background-color: #EBF7FF;
+                }
+                
+                &:focus {
+                    outline: none;
+                }
 			}
 
 			.active {
-				background-color: white;
+                background-color: white;
+                
+                &:hover {
+					background-color: white;
+                }
 			}
 		}
 

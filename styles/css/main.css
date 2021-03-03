@@ -44,10 +44,18 @@ body .about .btn-container .tab-btn {
 }
 
 body .about .btn-container .tab-btn:hover {
-  background-color: white;
+  background-color: #EBF7FF;
+}
+
+body .about .btn-container .tab-btn:focus {
+  outline: none;
 }
 
 body .about .btn-container .active {
+  background-color: white;
+}
+
+body .about .btn-container .active:hover {
   background-color: white;
 }
 
